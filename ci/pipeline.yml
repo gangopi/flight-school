@@ -3,8 +3,7 @@ resources:
   type: git
   source:
     uri: https://github.com/sample/flight-school
-    branch: master
-    branches: test-branch
+    branches: '.*'
 
 jobs:
 - name: test-app
